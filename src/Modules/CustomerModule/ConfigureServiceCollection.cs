@@ -5,7 +5,7 @@ namespace CustomerModule;
 
 public static class ConfigureServiceCollection
 {
-    public static IServiceCollection AddApplication(this IServiceCollection services)
+    public static IServiceCollection AddCustomerModule(this IServiceCollection services)
     {
         services.AddScoped<IPatternsFramework<Customer>, CustomerPatternsFramework>();
 

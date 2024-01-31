@@ -1,0 +1,5 @@
+NOTES:
+- implementing this infrastructure would make the application self-contained
+
+TODO:
+- add interface segragation for dbcontext
