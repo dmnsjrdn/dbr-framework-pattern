@@ -1,0 +1,15 @@
+// using CustomerModule.Entities;
+// using Microsoft.EntityFrameworkCore;
+
+// namespace CustomerModule.Database
+// {
+//     public class ApplicationDbContext : DbContext
+//     {
+//         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+//         {
+
+//         }
+
+//         public DbSet<Customer> Customer { get; set; }
+//     }
+// }

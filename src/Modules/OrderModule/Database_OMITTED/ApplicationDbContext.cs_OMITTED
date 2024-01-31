@@ -1,0 +1,16 @@
+using OrderModule.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace OrderModule.Database
+{
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+
+        }
+
+        public DbSet<Order> Order { get; set; }
+        public DbSet<OrderItem> OrderItem { get; set; }
+    }
+}
